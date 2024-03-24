@@ -7,10 +7,10 @@ const Home = () => {
       <View style={styles.header}>
         <View style={styles.headerImage}>
           <View style={styles.firstImage}>
-            <Image source={require('./assets/img-1.png')} style={styles.image1} />
+            <Image source={require('./img/img-1.png')} style={styles.image1} />
           </View>
           <View style={styles.secondImage}>
-            <Image source={require('./assets/img-2.png')} style={styles.image2} />
+            <Image source={require('./img/img-2.png')} style={styles.image2} />
           </View>
         </View>
       </View>
@@ -27,14 +27,14 @@ const Home = () => {
               placeholder="Email or username"
               placeholderTextColor="#444"
             />
-            <Image source={require('./assets/user.png')} style={styles.inputIcon} />
+            <Image source={require('./img/user.png')} style={styles.inputIcon} />
             <TextInput
               style={styles.input}
               placeholder="Password"
               placeholderTextColor="#444"
               secureTextEntry={true}
             />
-            <Image source={require('./assets/password.png')} style={styles.inputIcon} />
+            <Image source={require('./img/password.png')} style={styles.inputIcon} />
             <TouchableOpacity>
               <Text style={styles.forgotPassword}>Forgot password?</Text>
             </TouchableOpacity>

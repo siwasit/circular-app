@@ -7,10 +7,10 @@ const Login = () => {
       <View style={styles.header}>
         <View style={styles.headerImage}>
           <View style={styles.firstImg}>
-            <Image source={require('./assets/img-1.png')} style={styles.image} />
+            <Image source={require('./img/img-1.png')} style={styles.image} />
           </View>
           <View style={styles.secondImg}>
-            <Image source={require('./assets/img-2.png')} style={styles.image} />
+            <Image source={require('./img/img-2.png')} style={styles.image} />
           </View>
         </View>
       </View>
@@ -21,7 +21,7 @@ const Login = () => {
           <Text style={styles.userName}>Nutpraphut Praphutsirikul{'\n'}6510742072</Text>
         </View>
         <View style={styles.imgBottom}>
-          <Image source={require('./assets/Vector 59.png')} style={styles.image} />
+          <Image source={require('./img/Vector 59.png')} style={styles.image} />
         </View>
       </View>
     </View>
